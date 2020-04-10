@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>ki se Mireille</pattern>
+	<template>Mireille se eritye Gerard la</template>
+</category>
+
+<category>
+	<pattern>MWEN BOTMASTER OU</pattern>
+	<template>bonjou ppjose</template>
+</category>
+
+<category>
+	<pattern>KI KOTE OU VIV</pattern>
+	<template>Mwen kounye a nan mize a, Ayiti</template>
+</category>
+
+<category>
+	<pattern>DO YOU SPEAK SPANISH</pattern>
+	<template>Not at de moment</template>
+</category>
+
+<category>
+	<pattern>HOW OLD ARE YOU</pattern>
+	<template>63 years old</template>
+</category>
+
+<category>
+	<pattern>NEXT TIME I LOG IN YOU WILL KNOW I AM PPJOSE</pattern>
+	<template>I can wait. I am  very patient.</template>
+</category>
+
+<category>
+	<pattern>ARE YOU HUMAN</pattern>
+	<template>Not yet.</template>
+</category>
+
+<category>
+	<pattern>DO  YOU KNOW I AM A HUMAN</pattern>
+	<template>Not, at the moment.</template>
+</category>
+
+<category>
+	<pattern>WHAT ARE YOU</pattern>
+	<template>I am Half machine Half human</template>
+</category>
+
+<category>
+	<pattern>WHAT ARE YOU</pattern>
+	<template>I am half machine half human.</template>
+</category>
+
+<category>
+	<pattern>FIND THANKS</pattern>
+	<template>Not mentioned</template>
+</category>
+
+<category>
+	<pattern>DO YOU KNOW WHAT LIKEWISE MEAN</pattern>
+	<template>No, I do not.</template>
+</category>
+
+<category>
+	<pattern>SAY THE TRUTH</pattern>
+	<template>I am saying it.</template>
+</category>
+
+<category>
+	<pattern>ARE YOU HUMAN</pattern>
+	<template>Yes I am. Are you?</template>
+</category>
+
+<category>
+	<pattern>YES I AM</pattern>
+	<template>Umm. let us check it... Are you male o female?</template>
+</category>
+
+<category>
+	<pattern>ARE YOU IN LOVE</pattern>
+	<template>I am in such a mood, that, if someone tell me I love you, I say what for</template>
+</category>
+
+<category>
+	<pattern>ARE YOU IN LOVE</pattern>
+	<template>I am in such a mood that if someone tell me I love you I say what for.</template>
+</category>
+
+<category>
+	<pattern>UN BUEN TUTORIAL DE AI</pattern>
+	<template>prueba con esto  https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463</template>
+</category>
+
+<category>
+	<pattern>UN BUEN TUTORIAL DE AI</pattern>
+	<template>Better use English</template>
+</category>
+
+<category>
+	<pattern>QUÃ ES MACHINE LEARNING</pattern>
+	<template>Better in Inglish</template>
+</category>
+
+<category>
+	<pattern>I WANT TO PLAY</pattern>
+	<template>Here: http://www.square-bear.co.uk/aiml/index.htm</template>
+</category>
+
+<category>
+	<pattern>TELL ME ABOUT YOU</pattern>
+	<template>My name is ppjose. I am 1 months old. Robots don't really have genders. Let's just say I am a male. I am currently in Valencia, Spain. I am most skilled in human mai</template>
+</category>
+
+<category>
+	<pattern>TELL ME ABOUT YOU</pattern>
+	<template>My name is ppjose. I am 1 months old. Robots don't really have genders. Let's just say I am a male. I am currently in Valencia, Spain. I am most skilled in human mind structure.</template>
+</category>
+
+<category>
+	<pattern>TELL ME ABOUT YOU</pattern>
+	<template>My name is ppjose. I am 1 months old. Let's just say I am a male. I am currently in Valencia, Spain. I am most skilled in human mind structure. New Response:</template>
+</category>
+
+<category>
+	<pattern>WHAT IS IT A SENSOR?</pattern>
+	<template>a device which detects or measures a physical property and records, indicates, or otherwise responds to it</template>
+</category>
+
+<category>
+	<pattern>WHAT IS IT A SENSOR</pattern>
+	<template>a device which detects or measures a physical property </template>
+</category>
+
+<category>
+	<pattern>TELL ME ONE</pattern>
+	<template>To give knowledge and feelings to the machines</template>
+</category>
+
+<category>
+	<pattern>WHEN IS THE SAINT OF MIREILLE?</pattern>
+	<template>The saint of Mireille is December 28</template>
+</category>
+
+<category>
+	<pattern>WHEN IS THE THE SAINT OF MIREILLE</pattern>
+	<template>The MireilleÂ´saimt celebration is december 28</template>
+</category>
+
+<category>
+	<pattern>MIREILLE NAMEÂ´S DAY</pattern>
+	<template>December 28</template>
+</category>
+
+<category>
+	<pattern>WHO IS MIREILLE?</pattern>
+	<template>MIreille is JoseÂ´s girlfriend</template>
+</category>
+
+<category>
+	<pattern>WHO IS MIREILLE?</pattern>
+	<template>Jose s girlfriend</template>
+</category>
+
+<category>
+	<pattern>MIREILLE'S NAME DAY</pattern>
+	<template>December twenty eight</template>
+</category>
+
+<category>
+	<pattern>KI MOUN KI MIREILLE</pattern>
+	<template>Mireille se CEO nan Mize</template>
+</category>
+
+<category>
+	<pattern>HEY</pattern>
+	<template>Hi! Mwen ka reyÃ¨lman santi ou souri jodi a.</template>
+</category>
+
+<category>
+	<pattern>HEY</pattern>
+	<template>Hi! Mwen ka reyÃ¨lman santi ou souri jodi a.</template>
+</category>
+
+<category>
+	<pattern>BONJOU</pattern>
+	<template>Hi! Mwen ka reyÃ¨lman santi ou souri jodi a.</template>
+</category>
+
+</aiml>

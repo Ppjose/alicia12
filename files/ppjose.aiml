@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<!--  story.aiml - written by Steve Worswick 2018  -->
+<!--
+set up the story - this is the only category the user should amend
+-->
+<!--
+The completed category should be placed in a different AIML file
+-->
+<!--  and is only included here as an example  -->
+<!--  The last line should say END OF STORY  -->
+<category>
+<pattern>EXAMPLE STORY</pattern>
+<template>
+I'm going to tell you a story.
+<think>
+<set name="line1">This is line 1 of the story.</set>
+<set name="line2">This is line 2 of the story.</set>
+<set name="line3">This is line 3 of the story.</set>
+<set name="line4">This is line 4 of the story.</set>
+<set name="line5">This is line 5 of the story.</set>
+<set name="line6">END OF STORY</set>
+<set name="topic">TELLASTORY</set>
+</think>
+</template>
+</category>
+<!--
+tell the story - will work with stories up to 10 lines in length but can be amended
+-->
+<topic name="TELLASTORY">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic">QUITSTORY</set>
+<sr/>
+<set name="topic">TELLASTORY</set>
+<condition name="storycontinue">
+<li value="NO">
+<set name="progress">QUIT</set>
+</li>
+</condition>
+<condition name="progress">
+<li value="1">
+<set name="storyline">
+<get name="line1"/>
+</set>
+<set name="progress">2</set>
+</li>
+<li value="2">
+<set name="storyline">
+<get name="line2"/>
+</set>
+<set name="progress">3</set>
+</li>
+<li value="3">
+<set name="storyline">
+<get name="line3"/>
+</set>
+<set name="progress">4</set>
+</li>
+<li value="4">
+<set name="storyline">
+<get name="line4"/>
+</set>
+<set name="progress">5</set>
+</li>
+<li value="5">
+<set name="storyline">
+<get name="line5"/>
+</set>
+<set name="progress">6</set>
+</li>
+<li value="6">
+<set name="storyline">
+<get name="line6"/>
+</set>
+<set name="progress">7</set>
+</li>
+<li value="7">
+<set name="storyline">
+<get name="line7"/>
+</set>
+<set name="progress">8</set>
+</li>
+<li value="8">
+<set name="storyline">
+<get name="line8"/>
+</set>
+<set name="progress">9</set>
+</li>
+<li value="9">
+<set name="storyline">
+<get name="line9"/>
+</set>
+<set name="progress">10</set>
+</li>
+<li value="10">
+<set name="storyline">
+<get name="line10"/>
+</set>
+<set name="progress">11</set>
+</li>
+<li value="QUIT">
+<set name="topic"/>
+<set name="storycontinue">YES</set>
+</li>
+<li>
+<set name="storyline">
+<get name="line1"/>
+</set>
+<set name="progress">2</set>
+</li>
+</condition>
+<condition name="storyline">
+<li value="END OF STORY">
+<set name="storyline">That's the end of the story.</set>
+<set name="topic">unknown</set>
+<set name="progress">1</set>
+<set name="storycontinue">YES</set>
+</li>
+</condition>
+</think>
+<condition name="progress">
+<li value="QUIT">
+Ok. I'll stop the story.
+<think>
+<set name="progress">1</set>
+</think>
+</li>
+<li>
+<get name="storyline"/>
+</li>
+</condition>
+</template>
+</category>
+</topic>
+<!--
+quit out of story - in its own topic so no other part of an existing bot is affected
+-->
+<topic name="QUITSTORY">
+<category>
+<pattern>EXIT</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>QUIT</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>_ QUIT *</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>_ QUIT</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>STOP</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>STOP _</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>_ STOP *</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>_ STOP</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+<category>
+<pattern>_ NOT *</pattern>
+<template>
+<set name="storycontinue">NO</set>
+</template>
+</category>
+</topic>
+
+</aiml>
